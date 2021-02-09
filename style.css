@@ -1,0 +1,43 @@
+#searchBtn{
+    background-color:orange;
+    color: white;
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 20px;
+    width: 20%
+}
+
+.searchBox{
+    width: 45%;
+}
+
+.form-control:focus{
+    border-color: gray;
+}
+
+#searchResult {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+h2, h3 {
+    color: coral;
+    font-weight: bold;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+}
+
+.col-3 {
+    margin-bottom: 30px;
+}
+
+.mealName {
+    text-align: center;
+}
+
+.form-check-input:checked {
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
